@@ -37,7 +37,7 @@
     @keyframes heroRise{to{opacity:1;transform:translateY(0)}from{opacity:0;transform:translateY(34px)}}@keyframes heroZoom{to{transform:scale(1.06)}}@keyframes softPulse{50%{opacity:.5}}@keyframes placeholderSweep{0%,55%{transform:translateX(-120%)}85%,100%{transform:translateX(120%)}}@keyframes resultIn{from{opacity:0;transform:translateY(22px) scale(.985)}to{opacity:1;transform:none}}@keyframes lineBreathe{50%{transform:scaleX(2.2)}}
     @media(max-width:920px){.video-hero{min-height:880px}.hero-content h1{font-size:clamp(4rem,11vw,7rem)}}
     @media(max-width:620px){.video-hero{min-height:100svh;padding:0}.video-toggle{right:14px;bottom:18px}.quick-quiz{padding:56px 0 78px}.quiz{padding:44px 20px}.quiz-top{align-items:center}.product-band:hover,.group:hover{transform:none}}
-    header{position:sticky;width:auto;color:var(--ink);background:rgba(255,255,255,.98)}.video-hero{min-height:calc(100svh - 78px)}.video-toggle{backdrop-filter:none;background:rgba(10,6,7,.62)}
+    header,header.scrolled{position:relative;top:auto;width:auto;color:var(--ink);background:#fff;box-shadow:none;backdrop-filter:none}.video-hero{min-height:calc(100svh - 78px)}.video-toggle{backdrop-filter:none;background:rgba(10,6,7,.62)}
     @media(max-width:920px){.video-hero{min-height:calc(100svh - 78px)}}
     @media(max-width:620px){.video-hero{min-height:calc(100svh - 66px)}}
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}.hero-video,.hero-content>*,.hero-scroll,.conversion-item strong,.image-placeholder:after,.group-media:after,.band-media:after,.media:after,.heading h2:after{animation:none}.hero-content>*{opacity:1}.button,.choice,.group,.group-media,.product-band{transition:none}}
